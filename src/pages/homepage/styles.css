@@ -1,0 +1,26 @@
+
+.home-main{
+    height: 85vh;
+}
+
+.home-main .card{
+    width: 15rem;
+    height: 22rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding-bottom: 1rem;
+}
+
+.home-main .card-image img{
+    height: 15rem;
+    border-radius: 1rem;
+    width: 15rem;
+}
+
+.home-main .card-content{
+    text-align: center;
+}
+.quiz-description{
+    font-size: 0.75rem;
+    text-decoration: none;
+}

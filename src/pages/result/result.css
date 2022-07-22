@@ -1,0 +1,63 @@
+:root{
+    --positive-color: #6cac6c;
+    --negative-color: #da5454;
+}
+
+.result-main{
+    height: max-content;
+    justify-content: center;
+}
+
+.result-body{
+    padding: 1rem;
+    width: 50%;
+    border-radius: 1rem;
+    background-color: var(--bg-primary);
+    box-shadow: 0 0 1rem 0 var(--box-shadow);
+}
+
+.result-title{
+    font-size: 2rem;
+}
+
+.sub-details-section{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-success);
+}
+.sub-details-section button{
+    background-color: transparent;
+    border: 3px solid var(--text-primary) !important;
+}
+
+.sub-details-section button:hover{
+    color: var(--white) !important;
+}
+
+.options button{
+    border-radius: 1rem;
+    cursor: default;
+}
+
+.response-option{
+    background-color: var(--text-primary) !important;
+    color: var(--white);
+}
+
+.correct-answer{
+    background-color: var(--positive-color) !important;
+    color: var(--white) !important;
+}
+
+.incorrect-answer{
+    background-color: var(--negative-color) !important;
+    color: var(--white) !important;
+}
+
+.question-list{
+    border: 3px solid var(--text-primary);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    box-shadow: 0 0 1rem 0 var(--box-shadow);
+    width: 70%;
+}
