@@ -1,0 +1,28 @@
+.rules-main{
+    height: 85vh;
+}
+
+.rules-main h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.rules-body{
+    border: 1px solid var(--black);
+    width: max-content;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: var(--bg-primary);
+    height: 80%;
+    box-shadow: 0 0 16px 0 var(--box-shadow);
+    align-items: center;
+}
+
+.rules-list{
+    list-style-type: circle;
+}
+
+.start-quiz-button{
+    background-color: var(--iframe-bg) !important;
+    color: var(--white) !important;
+}
